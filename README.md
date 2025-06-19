@@ -230,30 +230,9 @@ python basic_usage.py
 - Ensemble performance comparison
 - Weight space diversity analysis
 
-### Step 7: Run Tests (Optional)
+### Step 7: Understanding the Results
 
-**7.1 Navigate Back to Root**
-```bash
-cd ..
-```
-
-**7.2 Run Unit Tests**
-```bash
-# Install test dependencies
-pip install pytest
-
-# Run all tests
-pytest tests/ -v
-```
-
-**7.3 What You Should See**
-- All tests should pass (green checkmarks)
-- Tests verify that samplers work correctly
-- Tests check cyclical schedules and stage transitions
-
-### Step 8: Understanding the Results
-
-**8.1 Check Results Folders**
+**7.1 Check Results Folders**
 ```bash
 # Look at generated plots and results
 ls experiments/synthetic/results/
@@ -261,7 +240,7 @@ ls experiments/bnn_classification/results/
 ls experiments/uncertainty/results/
 ```
 
-**8.2 Key Files to Look For**
+**7.2 Key Files to Look For**
 - `density_plots.png` - Shows mode discovery in synthetic experiment
 - `mds_visualization.png` - Shows weight space diversity
 - `uncertainty_histograms.png` - Shows confidence distributions
