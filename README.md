@@ -368,17 +368,9 @@ Instead of traditional decreasing stepsizes, cyclical SG-MCMC uses:
 - **Setup**: Transfer learning between SVHN and CIFAR-10
 - **Result**: Better calibration and uncertainty estimates
 
-## 📚 Documentation
-
-- [**Installation Guide**](docs/installation.md)
-- [**API Reference**](docs/api.md)
-- [**Experiment Guide**](docs/experiments.md)
-- [**Theory Background**](docs/theory.md)
-- [**Troubleshooting**](docs/troubleshooting.md)
-
 ## 🤝 Contributing
 
-We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
+We welcome contributions! 
 
 ### Development Setup
 ```bash
