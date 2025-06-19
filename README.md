@@ -357,8 +357,6 @@ Instead of traditional decreasing stepsizes, cyclical SG-MCMC uses:
 1. **Exploration Stage** (large stepsize): Discovers new modes via optimization
 2. **Sampling Stage** (small stepsize): Characterizes local posterior density
 
-![Cyclical Schedule](assets/cyclical_schedule.png)
-
 ## 📁 Repository Structure
 
 ```
