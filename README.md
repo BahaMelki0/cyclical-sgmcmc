@@ -28,6 +28,7 @@ Traditional Stochastic Gradient MCMC (SG-MCMC) methods often get trapped in loca
 ### From Source
 ```bash
 git clone https://github.com/bahamelki0/cyclical-sgmcmc.git
+cd cyclical-sgmcmc
 pip install -e .
 ```
 
