@@ -28,7 +28,6 @@ Traditional Stochastic Gradient MCMC (SG-MCMC) methods often get trapped in loca
 ### From Source
 ```bash
 git clone https://github.com/bahamelki0/cyclical-sgmcmc.git
-cd cyclical-sgmcmc
 pip install -e .
 ```
 
@@ -105,7 +104,6 @@ python run_uncertainty.py --task cifar10_to_svhn
 ```bash
 # Open your terminal/command prompt and run:
 git clone https://github.com/BahaMelki0/cyclical-sgmcmc.git
-cd cyclical-sgmcmc
 ```
 
 **1.2 Create Virtual Environment (Recommended)**
@@ -134,7 +132,10 @@ pip install torch torchvision numpy matplotlib scipy scikit-learn tqdm pandas se
 **2.1 Test Basic Import**
 ```bash
 # Run this command to test if everything is installed correctly
-python -c "import cyclical_sgmcmc; print('✅ Installation successful!')"
+python -c "import models; print('✅ Installation successful!')"
+python -c "import samplers; print('✅ Installation successful!')"
+python -c "import utils; print('✅ Installation successful!')"
+
 ```
 
 **2.2 Check GPU (Optional)**
@@ -271,7 +272,6 @@ ls experiments/uncertainty/results/
 **Issue: "ModuleNotFoundError"**
 ```bash
 # Solution: Make sure you're in the right directory and installed the package
-cd cyclical-sgmcmc
 pip install -e .
 ```
 
@@ -403,7 +403,6 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 ### Development Setup
 ```bash
 git clone https://github.com/BahaMelki0/cyclical-sgmcmc.git
-cd cyclical-sgmcmc
 pip install -e ".[dev]"
 pre-commit install
 ```
